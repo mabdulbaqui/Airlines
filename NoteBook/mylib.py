@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 import matplotlib.pyplot as plt
+from datasist.structdata import detect_outliers
 
 
 class Manipulation:
@@ -37,6 +38,17 @@ class Manipulation:
         except Exception as e:
             print("ERROR : " + str(e))
 
+    @staticmethod
+    def outliers(df, cols, drop=False):
+            idx = cols
+            outliers_indices = detect_outliers(df, 0, idx)
+            if drop:
+                df.drop(outliers_indices, inplace=True, axis=0)
+                print(len(outliers_indices))
+            else:
+                print(len(outliers_indices))
+                return outliers_indices
+
 
 class Describe:
     @staticmethod
@@ -50,7 +62,7 @@ class Describe:
             print("ERROR : " + str(e))
 
     @staticmethod
-    def allUnique(df,selected):
+    def allUnique(df, selected):
         for i in selected:
             print(i)
             print(df[i].unique())
@@ -92,7 +104,7 @@ class FeatureEngineering:
 
 class Visualization:
     @staticmethod
-    def printOutlier(df,col):
+    def printOutlier(df, col):
         from seaborn import boxplot
         from seaborn import stripplot
         from seaborn import distplot
@@ -101,7 +113,6 @@ class Visualization:
         stripplot(data=df, x=col)
         plt.show()
         distplot(df['Price'])
-
 
     @staticmethod
     def catsCount(catgoricalColumns, df):
@@ -116,7 +127,7 @@ class Visualization:
             print(e)
 
     @staticmethod
-    def catsStatistics(df,catgorical_columns,col):
+    def catsStatistics(df, catgorical_columns, col):
         from seaborn import boxplot
         from seaborn import violinplot
 
@@ -136,3 +147,11 @@ class Visualization:
             statsicates['Median'] = medians
             statsicates[['Mean', 'Median']] = statsicates[['Mean', 'Median']].astype(int)
             print(statsicates)
+    @staticmethod
+    def inc_plt():
+        plt.xticks(
+            rotation=45,
+            horizontalalignment='right',
+            fontweight='light',
+            fontsize='x-large'
+        )
