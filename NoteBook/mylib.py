@@ -97,8 +97,8 @@ class Visualization:
         from seaborn import stripplot
         from seaborn import distplot
         # fig, axs = plt.subplots(1, 1, sharey=True)
-        boxplot(data=df, x='Price')
-        stripplot(data=df, x='Price')
+        boxplot(data=df, x=col)
+        stripplot(data=df, x=col)
         plt.show()
         distplot(df['Price'])
 
