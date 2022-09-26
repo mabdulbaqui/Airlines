@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file:///media/xcrown/SHARED/Singularity-Data-Science-master/08-Data Visualization with Matplotlib &amp; Seaborn/code/01-Seaborn/.idea/01-Seaborn.iml" filepath="/media/xcrown/SHARED/Singularity-Data-Science-master/08-Data Visualization with Matplotlib &amp; Seaborn/code/01-Seaborn/.idea/01-Seaborn.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data.iml" filepath="$PROJECT_DIR$/.idea/Data.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/feature selection/.idea/feature selection.iml" filepath="$USER_HOME$/Desktop/feature selection/.idea/feature selection.iml" />
     </modules>
   </component>
 </project>

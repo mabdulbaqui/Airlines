@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d28618f-0fb2-422f-8c6b-6882b964fb35" name="Changes" comment="pre-ml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/notbook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NoteBook/notbook.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="7d28618f-0fb2-422f-8c6b-6882b964fb35" name="Changes" comment="Ml-PreProcessing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +44,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <MESSAGE value="pre-ml" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre-ml" />
+    <MESSAGE value="Ml-PreProcessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ml-PreProcessing" />
   </component>
 </project>
