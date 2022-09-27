@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d28618f-0fb2-422f-8c6b-6882b964fb35" name="Changes" comment="Ml-PreProcessing" />
+    <list default="true" id="7d28618f-0fb2-422f-8c6b-6882b964fb35" name="Changes" comment="Ml-PreProcessing">
+      <change beforePath="$PROJECT_DIR$/.idea/Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoteBook/notbook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NoteBook/notbook.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="01-Seaborn" />
     <orderEntry type="module" module-name="feature selection" />
+    <orderEntry type="module" module-name="vilas_Sell_EDA and ML" />
   </component>
 </module>
